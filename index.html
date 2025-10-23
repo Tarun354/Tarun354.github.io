@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarun Kumar - Physics Researcher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Hi, I'm Tarun Kumar 👋</h1>
+            <p class="subtitle">Physics Graduate Student | Gravitational Wave Research | IIT Gandhinagar</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="about">
+            <p class="intro">
+                I'm a physics grad student at IIT Gandhinagar working on gravitational wave detection. 
+                I spend most of my time thinking about how to make template banks more efficient and 
+                exploring ways machine learning can help us catch signals from merging black holes and neutron stars.
+            </p>
+        </section>
+
+        <section id="research">
+            <h2>🌌 Recent Research</h2>
+            
+            <div class="research-item">
+                <div class="research-content">
+                    <h3>Smarter Template Placement</h3>
+                    <p class="research-meta">Summer 2024, IIT Gandhinagar</p>
+                    <p>
+                        Working with Dr. Anand Sengupta, I found that using Halton sequences instead of 
+                        random sampling can cover the same parameter space with 5-6% fewer templates. 
+                        Sounds small, but when you're dealing with hundreds of thousands of templates, 
+                        that adds up fast. Built everything from scratch using a ball-tree approach in 
+                        chirp mass coordinates.
+                    </p>
+                </div>
+                <div class="research-image">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Halton_sequence_2D.svg/400px-Halton_sequence_2D.svg.png" 
+                         alt="Halton sequence pattern">
+                    <p class="caption">Halton sequence pattern</p>
+                </div>
+            </div>
+
+            <div class="research-item reverse">
+                <div class="research-image">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Chirp_signal.svg/500px-Chirp_signal.svg.png" 
+                         alt="Gravitational wave chirp">
+                    <p class="caption">Gravitational wave chirp</p>
+                </div>
+                <div class="research-content">
+                    <h3>Testing Metric Approximations</h3>
+                    <p class="research-meta">Jan-Apr 2025</p>
+                    <p>
+                        Dug into the math behind how we approximate gravitational waveform matches. 
+                        Constructed the metric using Fisher information matrices and validated it against 
+                        exact calculations. Basically making sure our shortcuts are actually accurate.
+                    </p>
+                </div>
+            </div>
+
+            <div class="research-item">
+                <div class="research-content">
+                    <h3>Signal Extraction with Hilbert-Huang Transform</h3>
+                    <p class="research-meta">Collaboration with Austrian Academy of Sciences</p>
+                    <p>
+                        Collaborated with Dr. Amit Reza on using HHT for pulling gravitational wave signals 
+                        out of noisy detector data. Found that the first intrinsic mode function gives cleaner 
+                        trigger times than the raw data, which could help pinpoint where signals come from in the sky.
+                    </p>
+                </div>
+                <div class="research-image">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/LIGO_measurement_of_gravitational_waves.svg/500px-LIGO_measurement_of_gravitational_waves.svg.png" 
+                         alt="LIGO gravitational wave detection">
+                    <p class="caption">LIGO gravitational wave detection</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Side Projects</h2>
+            <ul>
+                <li>Compared different regression methods (OLS, TLS, Huber) on noisy data – turns out Huber regression handles outliers way better</li>
+                <li>Simulated quantum wave packet scattering using time-dependent Schrödinger equation (because sometimes you need a break from GWs)</li>
+            </ul>
+        </section>
+
+        <section id="background">
+            <h2>Background</h2>
+            <ul>
+                <li>MSc Physics @ IIT Gandhinagar (2023-2025)</li>
+                <li>BSc Physics @ Cluster University of Jammu</li>
+                <li>Cleared JAM 2023, top 10% in NGPE-2023</li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>What I use</h2>
+            <p>
+                Python is my go-to (NumPy, SciPy, Matplotlib, PyCBC, scikit-learn, pandas). 
+                Also comfortable with LaTeX for writing papers and Wolfram for quick symbolic calculations.
+            </p>
+        </section>
+
+        <section id="future">
+            <h2>What's next</h2>
+            <p>
+                Planning to pursue a PhD in gravitational wave data analysis. I want to work on improving 
+                detection pipelines and parameter estimation methods – basically making LIGO and future 
+                detectors even better at catching these cosmic ripples.
+            </p>
+        </section>
+
+        <section id="interests">
+            <h2>Outside research</h2>
+            <p>When I'm not debugging code or reading papers, I'm usually:</p>
+            <ul>
+                <li>Stargazing or trying to photograph astronomical objects</li>
+                <li>Thinking about how to explain complex physics to non-physicists</li>
+                <li>Exploring new machine learning techniques that might be useful for GW analysis</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Get in touch</h2>
+            <div class="contact-links">
+                <a href="mailto:kumar.tarun@iitgn.ac.in" class="contact-btn">📧 Email</a>
+                <a href="https://www.linkedin.com/in/tarun-jindwan-324b69299/" class="contact-btn">💼 LinkedIn</a>
+                <a href="https://github.com/Tarun354" class="contact-btn">💻 GitHub</a>
+            </div>
+            <p class="contact-note">
+                Always happy to chat about gravitational waves, template banks, or how ML can help with astrophysics research!
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Tarun Kumar | Physics Graduate Student @ IIT Gandhinagar</p>
+        </div>
+    </footer>
+</body>
+</html>
